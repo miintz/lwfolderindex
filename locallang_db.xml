@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'lwfolderindex'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_airfilemanager_dir.tx_lwfolderindex_flush">Purge (WARNING: This will purge ACLs as well)</label>
+		</languageKey>
+		<languageKey index="nl" type="array">
+			<label index="tx_airfilemanager_dir.tx_lwfolderindex_flush">Purge (WAARSCHUWING: Dit zal ook ACLs verwijderen)</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,8 @@
+plugin.tx_LWFolderIndex_pi1 = USER
+plugin.tx_LWFolderIndex_pi1
+{
+usersId = {$plugin.tx_LWFolderIndex_pi1.usersPid}
+singlePid = {$plugin.tx_LWFolderIndex_pi1.singlePid}
+listPid = {$plugin.tx_LWFolderIndex_pi1.listPid}
+templateFile = {$plugin.tx_LWFolderIndex_pi1.templateFile}
+}

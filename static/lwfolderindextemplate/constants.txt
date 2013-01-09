@@ -1,0 +1,8 @@
+plugin.tx_LWFolderIndex_pi1
+{
+usersPid = 
+singlePid = 
+listPid = 
+# cat=lwfolderindex; type=string; label=Template file
+templateFile = EXT:lwfolderindex/res/pi1_template.html
+}
