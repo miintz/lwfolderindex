@@ -1,1 +1,13 @@
-toet toet
+LWFOLDERINDEX plugin for TYPO3
+
+This plugin ensures that folders aren't just indexed FE like air_filemanager does, but also backend. This takes care of folders not
+showing up in the FE, but showing up in the next refresh instead.
+
+HOW TO USE
+
+Install this plugin via the TYPO3 extension manager. 
+Since this is a scheduler task, go to Scheduler in the left list view and create a new Task
+Fill out a run frequency, runtime (default 1 day), file system root (this is the relative path of the folder you wish to index, so /fileadmin for example) and click the save button
+
+Now all folders in the given path will be indexed, the ACLs will be taken into account. When a new folder is found default behavior is to copy the ACLs of its parent folder. 
+
